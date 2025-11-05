@@ -38,7 +38,7 @@ Phlebot’s pipeline is built using **LangChain** and **OpenAI GPT-4o**, integra
 
 ## ⚙️ Workflow Summary
 
-1. A nurse uploads a **blood test PDF**.
+1. A doctor uploads a **blood test PDF**.
 2. The document is parsed and **split into chunks** for efficient processing.
 3. Each chunk is embedded and stored in **ChromaDB**.
 4. When a user asks a question, the query is embedded and compared semantically against stored vectors.
@@ -53,7 +53,7 @@ Phlebot’s pipeline is built using **LangChain** and **OpenAI GPT-4o**, integra
 
 ## 🌍 Real-World Impact
 
-Phlebot was successfully **tested by nurses at Sheikh Shakhbout Medical City (SSMC)** to interpret lab results.
+Phlebot was successfully **tested** to interpret lab results.
 It reduced manual lookup time by **25%**, enabling staff to understand lab parameters faster and provide better patient care.
 This project demonstrates how AI can bridge the gap between raw medical data and actionable insight.
 
